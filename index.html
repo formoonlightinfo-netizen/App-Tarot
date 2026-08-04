@@ -32,22 +32,7 @@
 
           <div class="card-face card-back is-active">
             <div class="card-back-frame">
-              <svg viewBox="0 0 100 160" class="card-back-art">
-                <rect x="3" y="3" width="94" height="154" rx="4" class="cb-border"/>
-                <circle cx="50" cy="80" r="30" class="cb-circle-1"/>
-                <circle cx="50" cy="80" r="20" class="cb-circle-2"/>
-                <circle cx="50" cy="80" r="3" class="cb-dot"/>
-                <g class="cb-rays">
-                  <line x1="50" y1="20" x2="50" y2="40"/>
-                  <line x1="50" y1="120" x2="50" y2="140"/>
-                  <line x1="10" y1="80" x2="30" y2="80"/>
-                  <line x1="70" y1="80" x2="90" y2="80"/>
-                  <line x1="21" y1="51" x2="34" y2="64"/>
-                  <line x1="79" y1="109" x2="66" y2="96"/>
-                  <line x1="79" y1="51" x2="66" y2="64"/>
-                  <line x1="21" y1="109" x2="34" y2="96"/>
-                </g>
-              </svg>
+              <img src="assets/logo.png" alt="" class="card-back-logo">
               <span class="card-back-label">TOCCA<br>PER PESCARE</span>
             </div>
           </div>
@@ -63,15 +48,18 @@
     <p class="hint" id="hint">Tocca la carta per ricevere il tuo messaggio</p>
 
     <section class="result" id="result" aria-live="polite">
-      <h2 class="result-name" id="resultName"></h2>
-      <p class="result-text" id="resultText"></p>
-      <button class="draw-again" id="drawAgain" type="button">Pesca un'altra carta</button>
+      <div class="result-card">
+        <h2 class="result-name" id="resultName"></h2>
+        <p class="result-text" id="resultText"></p>
+        <button class="draw-again" id="drawAgain" type="button">Pesca un'altra carta</button>
+      </div>
     </section>
 
   </main>
 
   <footer class="site-footer">
     <span>Il Cerchio del Richiamo</span>
+    <p class="disclaimer">Questo è un mazzo immaginario AI Genereted per riflessione e gioco &mdash; non sostituisce un consulto privato personalizzato.</p>
   </footer>
 
 </div>
