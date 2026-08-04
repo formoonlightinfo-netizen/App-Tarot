@@ -285,7 +285,7 @@ html, body {
 .draw-again:focus-visible {
   background: transparent;
   border-color: var(--gold);
-  color: #ffffff;
+  color: var(--gold-soft);
 }
 
 /* ---------- Footer ---------- */
