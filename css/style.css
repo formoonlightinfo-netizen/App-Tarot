@@ -8,6 +8,18 @@
   font-size: 16px;
 }
 
+@media (min-width: 640px) {
+  :root { --box-w: 460px; font-size: 16.5px; }
+}
+
+@media (min-width: 1024px) {
+  :root { --box-w: 500px; font-size: 17px; }
+}
+
+@media (min-width: 1440px) {
+  :root { --box-w: 540px; font-size: 18px; }
+}
+
 * { box-sizing: border-box; }
 
 html, body {
@@ -81,6 +93,7 @@ html, body {
   letter-spacing: 0.06em;
   line-height: 1.28;
   margin: 0;
+  text-transform: uppercase;
   text-shadow: 0 2px 18px rgba(0,0,0,0.55), 0 0 40px rgba(201,167,105,0.15);
 }
 
@@ -97,7 +110,7 @@ html, body {
 
 .reading-area {
   width: 100%;
-  max-width: 480px;
+  max-width: calc(var(--box-w) + 40px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -228,7 +241,7 @@ html, body {
 .result-card {
   background: linear-gradient(180deg, #4d51c4 0%, #3a2f8f 32%, rgba(53, 43, 130, 0.55) 50%, rgba(36, 26, 84, 0) 78%);
   border: none;
-  border-top: 1px solid rgba(201, 167, 105, 0.55);
+  border-top: 3px solid rgba(201, 167, 105, 0.6);
   border-radius: 28px;
   padding: clamp(1.75rem, 6vw, 2.5rem) clamp(1.5rem, 6vw, 2.25rem) clamp(2rem, 6vw, 2.5rem);
 }
@@ -240,6 +253,7 @@ html, body {
   font-size: clamp(1.3rem, 4.5vw, 1.65rem);
   letter-spacing: 0.05em;
   margin: 0 0 1rem;
+  text-transform: uppercase;
 }
 
 .result-text {
