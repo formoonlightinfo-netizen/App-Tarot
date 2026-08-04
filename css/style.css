@@ -248,9 +248,9 @@ html, body {
   font-family: 'Cinzel', serif;
   font-size: 0.78rem;
   letter-spacing: 0.18em;
-  color: var(--gold-soft);
-  background: transparent;
-  border: 1px solid rgba(201, 167, 105, 0.55);
+  color: var(--ink-deep);
+  background: linear-gradient(180deg, #dcbf8c 0%, #c9a769 100%);
+  border: 1px solid var(--gold);
   border-radius: 999px;
   padding: 0.85rem 2rem;
   cursor: pointer;
@@ -259,9 +259,9 @@ html, body {
 
 .draw-again:hover,
 .draw-again:focus-visible {
-  background: rgba(201, 167, 105, 0.12);
+  background: transparent;
   border-color: var(--gold);
-  color: #fff;
+  color: var(--gold-soft);
 }
 
 /* ---------- Footer ---------- */
