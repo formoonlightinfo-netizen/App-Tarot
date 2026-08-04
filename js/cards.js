@@ -217,88 +217,88 @@ const TAROT_DECK = [
       "Il Re di Coppe rappresenta la maturità emotiva, la calma sotto pressione e la saggezza equilibrata di chi si conosce bene. Tiene in equilibrio cuore e mente con quieta autorevolezza.\n\nQuesta carta ti incoraggia a rispondere invece di reagire, a offrire guida con pazienza e a mantenere calme le tue acque interiori anche quando il mondo intorno a te si agita."
   },
   {
-    name: "Asso di Denari",
-    image: "assets/cards/asso-di-denari.jpg",
+    name: "Asso di Pentacoli",
+    image: "assets/cards/asso-di-pentacoli.jpg",
     description:
-      "L'Asso di Denari rappresenta nuove opportunità nel mondo materiale, fondamenta fresche e il seme di qualcosa di stabile e duraturo. Parla di inizi radicati nel concreto e nel pratico.\n\nQuando appare, ti invita a piantare ciò che desideri veder crescere. Che tu stia iniziando un progetto, sistemandoti in un nuovo spazio o avviando una nuova routine, il terreno è pronto."
+      "L'Asso di Pentacoli rappresenta nuove opportunità nel mondo materiale, fondamenta fresche e il seme di qualcosa di stabile e duraturo. Parla di inizi radicati nel concreto e nel pratico.\n\nQuando appare, ti invita a piantare ciò che desideri veder crescere. Che tu stia iniziando un progetto, sistemandoti in un nuovo spazio o avviando una nuova routine, il terreno è pronto."
   },
   {
-    name: "Due di Denari",
-    image: "assets/cards/due-di-denari.jpg",
+    name: "Due di Pentacoli",
+    image: "assets/cards/due-di-pentacoli.jpg",
     description:
-      "Il Due di Denari rappresenta l'equilibrio, l'adattabilità e l'abilità di gestire più cose contemporaneamente. Parla del destreggiarsi tra responsabilità restando leggeri sui propri passi.\n\nQuesta carta ti ricorda che la vita si muove a ondate. Resta flessibile, dai priorità con saggezza e ricorda che mantenere grazia sotto pressione è già di per sé un piccolo traguardo."
+      "Il Due di Pentacoli rappresenta l'equilibrio, l'adattabilità e l'abilità di gestire più cose contemporaneamente. Parla del destreggiarsi tra responsabilità restando leggeri sui propri passi.\n\nQuesta carta ti ricorda che la vita si muove a ondate. Resta flessibile, dai priorità con saggezza e ricorda che mantenere grazia sotto pressione è già di per sé un piccolo traguardo."
   },
   {
-    name: "Tre di Denari",
-    image: "assets/cards/tre-di-denari.jpg",
+    name: "Tre di Pentacoli",
+    image: "assets/cards/tre-di-pentacoli.jpg",
     description:
-      "Il Tre di Denari rappresenta la collaborazione, l'abilità artigianale e la soddisfazione di costruire qualcosa di buono insieme agli altri. Parla del riconoscimento delle competenze e del valore dato all'impegno.\n\nQuando appare, suggerisce che lavorare insieme porterà risultati migliori che agire da soli. Condividi le tue idee, ascolta gli altri e sii orgoglioso di ciò che create come squadra."
+      "Il Tre di Pentacoli rappresenta la collaborazione, l'abilità artigianale e la soddisfazione di costruire qualcosa di buono insieme agli altri. Parla del riconoscimento delle competenze e del valore dato all'impegno.\n\nQuando appare, suggerisce che lavorare insieme porterà risultati migliori che agire da soli. Condividi le tue idee, ascolta gli altri e sii orgoglioso di ciò che create come squadra."
   },
   {
-    name: "Quattro di Denari",
-    image: "assets/cards/quattro-di-denari.jpg",
+    name: "Quattro di Pentacoli",
+    image: "assets/cards/quattro-di-pentacoli.jpg",
     description:
-      "Il Quattro di Denari rappresenta l'attaccamento, la sicurezza e il desiderio di proteggere ciò che si ha. Parla di stabilità, ma anche del rischio di aggrapparsi troppo stretti.\n\nQuesta carta ti chiede di riflettere su cosa stai custodendo e perché. Alcune cose meritano di essere protette. Altre crescono solo se lasciate libere. Trova l'equilibrio tra prudenza e apertura."
+      "Il Quattro di Pentacoli rappresenta l'attaccamento, la sicurezza e il desiderio di proteggere ciò che si ha. Parla di stabilità, ma anche del rischio di aggrapparsi troppo stretti.\n\nQuesta carta ti chiede di riflettere su cosa stai custodendo e perché. Alcune cose meritano di essere protette. Altre crescono solo se lasciate libere. Trova l'equilibrio tra prudenza e apertura."
   },
   {
-    name: "Cinque di Denari",
-    image: "assets/cards/cinque-di-denari.jpg",
+    name: "Cinque di Pentacoli",
+    image: "assets/cards/cinque-di-pentacoli.jpg",
     description:
-      "Il Cinque di Denari rappresenta la difficoltà, il sentirsi esclusi o l'attraversare un periodo di mancanza. Onora la solitudine che può presentarsi nei momenti difficili.\n\nQuesta carta ti ricorda anche che l'aiuto è più vicino di quanto sembri. Cerca la luce. Chiedi sostegno quando ne hai bisogno e fidati che questo passaggio è temporaneo."
+      "Il Cinque di Pentacoli rappresenta la difficoltà, il sentirsi esclusi o l'attraversare un periodo di mancanza. Onora la solitudine che può presentarsi nei momenti difficili.\n\nQuesta carta ti ricorda anche che l'aiuto è più vicino di quanto sembri. Cerca la luce. Chiedi sostegno quando ne hai bisogno e fidati che questo passaggio è temporaneo."
   },
   {
-    name: "Sei di Denari",
-    image: "assets/cards/sei-di-denari.jpg",
+    name: "Sei di Pentacoli",
+    image: "assets/cards/sei-di-pentacoli.jpg",
     description:
-      "Il Sei di Denari rappresenta la generosità, l'equità e il flusso naturale tra il dare e il ricevere. Parla di condividere ciò che hai e di essere aperti a ricevere sostegno quando arriva.\n\nQuando appare, ti invita a considerare dove serve equilibrio. Offri ciò che puoi. Accetta l'aiuto con grazia. L'abbondanza cresce quando si muove liberamente tra le persone."
+      "Il Sei di Pentacoli rappresenta la generosità, l'equità e il flusso naturale tra il dare e il ricevere. Parla di condividere ciò che hai e di essere aperti a ricevere sostegno quando arriva.\n\nQuando appare, ti invita a considerare dove serve equilibrio. Offri ciò che puoi. Accetta l'aiuto con grazia. L'abbondanza cresce quando si muove liberamente tra le persone."
   },
   {
-    name: "Sette di Denari",
-    image: "assets/cards/sette-di-denari.jpg",
+    name: "Sette di Pentacoli",
+    image: "assets/cards/sette-di-pentacoli.jpg",
     description:
-      "Il Sette di Denari rappresenta la pazienza, la valutazione e la visione a lungo termine che nasce da un impegno costante. Parla di fermarsi a valutare i progressi e a fidarsi che la crescita richiede tempo.\n\nQuesta carta ti invita a fare un passo indietro e a considerare ciò che hai seminato. Alcune cose sono pronte per essere raccolte. Altre necessitano di più tempo. In entrambi i casi, il tuo lavoro non è stato vano."
+      "Il Sette di Pentacoli rappresenta la pazienza, la valutazione e la visione a lungo termine che nasce da un impegno costante. Parla di fermarsi a valutare i progressi e a fidarsi che la crescita richiede tempo.\n\nQuesta carta ti invita a fare un passo indietro e a considerare ciò che hai seminato. Alcune cose sono pronte per essere raccolte. Altre necessitano di più tempo. In entrambi i casi, il tuo lavoro non è stato vano."
   },
   {
-    name: "Otto di Denari",
-    image: "assets/cards/otto-di-denari.jpg",
+    name: "Otto di Pentacoli",
+    image: "assets/cards/otto-di-pentacoli.jpg",
     description:
-      "L'Otto di Denari rappresenta la dedizione, l'apprendimento di nuove abilità e l'orgoglio silenzioso di diventare bravi in qualcosa attraverso la pratica. Parla di concentrazione, ripetizione e cura per il proprio mestiere.\n\nQuando appare, ti incoraggia a continuare. Ogni piccolo sforzo si somma. La maestria non nasce solo dal talento, ma dal presentarsi giorno dopo giorno."
+      "L'Otto di Pentacoli rappresenta la dedizione, l'apprendimento di nuove abilità e l'orgoglio silenzioso di diventare bravi in qualcosa attraverso la pratica. Parla di concentrazione, ripetizione e cura per il proprio mestiere.\n\nQuando appare, ti incoraggia a continuare. Ogni piccolo sforzo si somma. La maestria non nasce solo dal talento, ma dal presentarsi giorno dopo giorno."
   },
   {
-    name: "Nove di Denari",
-    image: "assets/cards/nove-di-denari.jpg",
+    name: "Nove di Pentacoli",
+    image: "assets/cards/nove-di-pentacoli.jpg",
     description:
-      "Il Nove di Denari rappresenta l'indipendenza, il benessere e il piacere silenzioso di godersi la vita che hai costruito. Parla di autosufficienza e del piacere di momenti tutti tuoi.\n\nQuesta carta ti invita ad apprezzare ciò che ti circonda e a riconoscere la libertà che nasce dai tuoi stessi sforzi. Prenditi il tempo per goderti i frutti di ciò che hai creato."
+      "Il Nove di Pentacoli rappresenta l'indipendenza, il benessere e il piacere silenzioso di godersi la vita che hai costruito. Parla di autosufficienza e del piacere di momenti tutti tuoi.\n\nQuesta carta ti invita ad apprezzare ciò che ti circonda e a riconoscere la libertà che nasce dai tuoi stessi sforzi. Prenditi il tempo per goderti i frutti di ciò che hai creato."
   },
   {
-    name: "Dieci di Denari",
-    image: "assets/cards/dieci-di-denari.jpg",
+    name: "Dieci di Pentacoli",
+    image: "assets/cards/dieci-di-pentacoli.jpg",
     description:
-      "Il Dieci di Denari rappresenta la stabilità duratura, la famiglia e il senso di appartenere a qualcosa che resiste oltre il momento presente. Parla di eredità, tradizione e del conforto di solide fondamenta.\n\nQuando appare, onora ciò che tu e chi ti ha preceduto avete costruito. Sii orgoglioso della casa, della comunità o della storia condivisa che ti sostiene."
+      "Il Dieci di Pentacoli rappresenta la stabilità duratura, la famiglia e il senso di appartenere a qualcosa che resiste oltre il momento presente. Parla di eredità, tradizione e del conforto di solide fondamenta.\n\nQuando appare, onora ciò che tu e chi ti ha preceduto avete costruito. Sii orgoglioso della casa, della comunità o della storia condivisa che ti sostiene."
   },
   {
-    name: "Fante di Denari",
-    image: "assets/cards/fante-di-denari.jpg",
+    name: "Fante di Pentacoli",
+    image: "assets/cards/fante-di-pentacoli.jpg",
     description:
-      "Il Fante di Denari rappresenta un nuovo studio, nuove competenze e il desiderio di imparare qualcosa di concreto. Questa figura si avvicina al mondo con curiosità e la volontà di ricominciare da zero.\n\nQuando appare, ti invita a interessarti a qualcosa di nuovo. Iscriviti al corso, inizia il progetto, leggi il libro. I piccoli inizi portano a una crescita significativa."
+      "Il Fante di Pentacoli rappresenta un nuovo studio, nuove competenze e il desiderio di imparare qualcosa di concreto. Questa figura si avvicina al mondo con curiosità e la volontà di ricominciare da zero.\n\nQuando appare, ti invita a interessarti a qualcosa di nuovo. Iscriviti al corso, inizia il progetto, leggi il libro. I piccoli inizi portano a una crescita significativa."
   },
   {
-    name: "Cavaliere di Denari",
-    image: "assets/cards/cavaliere-di-denari.jpg",
+    name: "Cavaliere di Pentacoli",
+    image: "assets/cards/cavaliere-di-pentacoli.jpg",
     description:
-      "Il Cavaliere di Denari rappresenta l'impegno costante, l'affidabilità e il progresso lento ma sicuro di chi segue con perseveranza il proprio piano. Questa figura preferisce la coerenza all'apparenza.\n\nQuesta carta ti incoraggia a essere paziente e metodico. Mantieni i tuoi impegni, curane i dettagli e fidati che un lavoro attento costruisce risultati duraturi."
+      "Il Cavaliere di Pentacoli rappresenta l'impegno costante, l'affidabilità e il progresso lento ma sicuro di chi segue con perseveranza il proprio piano. Questa figura preferisce la coerenza all'apparenza.\n\nQuesta carta ti incoraggia a essere paziente e metodico. Mantieni i tuoi impegni, curane i dettagli e fidati che un lavoro attento costruisce risultati duraturi."
   },
   {
-    name: "Regina di Denari",
-    image: "assets/cards/regina-di-denari.jpg",
+    name: "Regina di Pentacoli",
+    image: "assets/cards/regina-di-pentacoli.jpg",
     description:
-      "La Regina di Denari rappresenta una praticità premurosa, il comfort e il calore concreto di chi si prende cura della casa, della famiglia e dei dettagli quotidiani.\n\nQuando appare, ti invita a occuparti delle cose essenziali. Mangia bene, riposa, cura il tuo spazio e dedica attenzione a chi ti sta intorno. Un amore silenzioso e costante è già una forma di magia."
+      "La Regina di Pentacoli rappresenta una praticità premurosa, il comfort e il calore concreto di chi si prende cura della casa, della famiglia e dei dettagli quotidiani.\n\nQuando appare, ti invita a occuparti delle cose essenziali. Mangia bene, riposa, cura il tuo spazio e dedica attenzione a chi ti sta intorno. Un amore silenzioso e costante è già una forma di magia."
   },
   {
-    name: "Re di Denari",
-    image: "assets/cards/re-di-denari.jpg",
+    name: "Re di Pentacoli",
+    image: "assets/cards/re-di-pentacoli.jpg",
     description:
-      "Il Re di Denari rappresenta un successo consolidato, la generosità e la sicurezza di chi ha costruito qualcosa di solido e ama condividerne i frutti.\n\nQuesta carta ti incoraggia a guidare con stabilità e a essere generoso con ciò che hai. La stabilità si costruisce nel tempo, e possiedi la saggezza per gestire con cura ciò che ti è affidato."
+      "Il Re di Pentacoli rappresenta un successo consolidato, la generosità e la sicurezza di chi ha costruito qualcosa di solido e ama condividerne i frutti.\n\nQuesta carta ti incoraggia a guidare con stabilità e a essere generoso con ciò che hai. La stabilità si costruisce nel tempo, e possiedi la saggezza per gestire con cura ciò che ti è affidato."
   },
   {
     name: "Asso di Spade",

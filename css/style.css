@@ -4,8 +4,7 @@
   --ink: #0b0710;
   --ink-deep: #060409;
   --veil: rgba(6, 4, 9, 0.62);
-  --card-w: min(78vw, 300px);
-  --card-h: calc(var(--card-w) * 1.62);
+  --box-w: 420px;
   font-size: 16px;
 }
 
@@ -105,8 +104,9 @@ html, body {
 }
 
 .stage {
-  width: var(--card-w);
-  height: var(--card-h);
+  width: 100%;
+  max-width: var(--box-w);
+  aspect-ratio: 921 / 1394;
   margin: 0.5rem 0 1.5rem;
 }
 
@@ -211,7 +211,7 @@ html, body {
 
 .result {
   width: 100%;
-  max-width: 420px;
+  max-width: var(--box-w);
   text-align: center;
   opacity: 0;
   transform: translateY(14px);
@@ -226,11 +226,11 @@ html, body {
 }
 
 .result-card {
-  background: linear-gradient(165deg, #4d51c4 0%, #3a2f8f 45%, #241a54 85%, #1c1445 100%);
-  border: 1px solid rgba(201, 167, 105, 0.5);
+  background: linear-gradient(180deg, #4d51c4 0%, #3a2f8f 32%, rgba(53, 43, 130, 0.55) 50%, rgba(36, 26, 84, 0) 78%);
+  border: none;
+  border-top: 1px solid rgba(201, 167, 105, 0.55);
   border-radius: 28px;
   padding: clamp(1.75rem, 6vw, 2.5rem) clamp(1.5rem, 6vw, 2.25rem) clamp(2rem, 6vw, 2.5rem);
-  box-shadow: 0 24px 60px rgba(8, 4, 24, 0.55), inset 0 1px 0 rgba(255,255,255,0.06);
 }
 
 .result-name {
@@ -253,10 +253,12 @@ html, body {
 }
 
 .draw-again {
-  font-family: 'Cinzel', serif;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
   font-size: 0.78rem;
-  letter-spacing: 0.18em;
-  color: var(--ink-deep);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
   background: linear-gradient(180deg, #dcbf8c 0%, #c9a769 100%);
   border: 1px solid var(--gold);
   border-radius: 999px;
@@ -269,7 +271,7 @@ html, body {
 .draw-again:focus-visible {
   background: transparent;
   border-color: var(--gold);
-  color: var(--gold-soft);
+  color: #ffffff;
 }
 
 /* ---------- Footer ---------- */
@@ -284,6 +286,15 @@ html, body {
   text-align: center;
 }
 
+.credit {
+  margin: 0.7rem 0 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  color: rgba(244, 237, 224, 0.38);
+}
+
 .disclaimer {
   margin: 0.9rem auto 0;
   max-width: 320px;
@@ -293,10 +304,4 @@ html, body {
   letter-spacing: 0.01em;
   line-height: 1.6;
   color: rgba(244, 237, 224, 0.32);
-}
-
-/* ---------- Small screens ---------- */
-
-@media (max-width: 360px) {
-  :root { --card-w: 74vw; }
 }
