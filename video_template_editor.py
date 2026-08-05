@@ -17,6 +17,14 @@ Prima versione base. Pipeline implementata:
   6. Due modalità d'uso semplici: wizard interattivo da terminale (--interactive) e
      GUI minimale in Tkinter (--gui), oltre alla modalità a riga di comando pura.
 
+I font sono già inclusi nella cartella fonts/ (scaricati da Google Fonts,
+licenza SIL Open Font License — vedi i file LICENSE-*.OFL.txt lì dentro):
+  - Cinzel-Regular.ttf / Cinzel-Bold.ttf per i titoli
+  - ClassicLight-Regular.ttf (font "Cormorant" peso Light — su Google Fonts
+    non esiste una famiglia chiamata letteralmente "Classic Light", quindi è
+    stato scelto questo serif chiaro ed elegante che si abbina bene a Cinzel)
+Non serve nessuna configurazione manuale dei font: funziona già così.
+
 Dipendenze esterne richieste: ffmpeg / ffprobe nel PATH.
 Dipendenze Python opzionali (il tool degrada con avvisi se mancano):
   pillow, faster-whisper (o openai-whisper), anthropic.
